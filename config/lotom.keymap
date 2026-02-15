@@ -59,10 +59,10 @@
         NUMBER {
             bindings = <
 &kp LANG1       &kp SLASH
-&kp LANG2       &kp UP_ARROW    &trans           &trans  &trans  &trans  &kp N7        &kp N8        &kp N9        &kp PLUS        &kp MINUS       &kp ASTERISK
+&kp LANG2       &kp UP_ARROW    &kp EQUAL        &trans  &trans  &trans  &kp N7        &kp N8        &kp N9        &kp PLUS        &kp MINUS       &kp ASTERISK
 &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans  &trans  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PAGE_UP     &kp UP_ARROW    &kp PAGE_DOWN
-&kp F12         &trans          &trans           &trans  &trans  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
-&kp F12         &trans          &trans           &trans  &trans  &trans  &kp N0        &kp DOT       &kp HOME      &kp END
+&trans          &trans          &trans           &trans  &trans  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
+&trans          &trans          &trans           &trans  &trans  &trans  &kp N0        &kp DOT       &kp HOME      &kp END
             >;
 
             sensor-bindings = <
@@ -119,10 +119,10 @@
         BT {
             bindings = <
 &trans         &trans
-&kp LG(Q)      &kp LC(W)  &trans     &trans     &trans  &trans  &trans  &bt BT_PRV  &bt BT_NXT  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-&kp LG(LS(Z))  &trans     &kp LC(C)  &trans     &trans  &trans  &trans  &trans      &trans      &trans        &trans        &trans
-&kp LG(Z)      &kp LG(X)  &kp LG(C)  &kp LG(V)  &trans  &trans  &trans  &trans      &trans      &trans        &trans        &trans
-&trans         &trans     &trans     &trans     &trans  &trans  &trans  &trans      &trans      &trans
+&kp LG(Q)      &kp LC(W)  &trans     &trans     &trans  &trans  &bt BT_SEL 1  &bt BT_PRV  &bt BT_NXT  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
+&kp LG(LS(Z))  &trans     &kp LC(C)  &trans     &trans  &trans  &trans        &trans      &trans      &trans        &trans        &trans
+&kp LG(Z)      &kp LG(X)  &kp LG(C)  &kp LG(V)  &trans  &trans  &trans        &trans      &trans      &trans        &trans        &trans
+&trans         &trans     &trans     &trans     &trans  &trans  &trans        &trans      &trans      &trans
             >;
 
             sensor-bindings = <
